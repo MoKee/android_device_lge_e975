@@ -112,3 +112,7 @@ TARGET_QCOM_DISPLAY_VARIANT := caf
 #TARGET_QCOM_AUDIO_VARIANT := caf
 
 BOARD_RIL_CLASS := ../../../device/lge/e975/ril/
+
+ifdef MK_RELEASE
+WITH_DEXPREOPT := true
+endif
