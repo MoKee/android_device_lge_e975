@@ -113,9 +113,6 @@ TARGET_QCOM_DISPLAY_VARIANT := caf
 
 BOARD_RIL_CLASS := ../../../device/lge/e975/ril/
 
-ifeq ($(HAVE_SELINUX),true)
-
-
 BOARD_SEPOLICY_DIRS += \
         device/lge/e975/sepolicy
 
@@ -148,8 +145,6 @@ BOARD_SEPOLICY_UNION += \
 	thermald.te \
 	ueventd.te \
 	wpa_supplicant.te
-
-endif
 
 ifdef MK_RELEASE
 WITH_DEXPREOPT := true
