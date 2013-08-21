@@ -1,12 +1,10 @@
 [
  {
-   "repository": "MoKee/android_kernel_lge_gproj",
-   "target_path": "kernel/lge/gproj",
-   "branch": "jb-mr1_mkt"
+   "repository": "android_kernel_lge_gproj",
+   "target_path": "kernel/lge/gproj"
  },
  {
-   "repository": "MoKee/android_vendor_lge_e975",
-   "target_path": "vendor/lge/e975",
-   "branch": "jb-mr1_mkt"
+   "repository": "android_vendor_lge_e975",
+   "target_path": "vendor/lge/e975"
  }
 ]
