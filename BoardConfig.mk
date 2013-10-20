@@ -39,6 +39,7 @@ BOARD_HOSTAPD_PRIVATE_LIB := lib_driver_cmd_$(BOARD_WLAN_DEVICE)
 
 TARGET_RECOVERY_PIXEL_FORMAT := "RGBX_8888"
 TARGET_RECOVERY_FSTAB = device/lge/e975/fstab.geehrc
+BOARD_RECOVERY_SWIPE := true
 
 -include vendor/lge/e975/BoardConfigVendor.mk
 
