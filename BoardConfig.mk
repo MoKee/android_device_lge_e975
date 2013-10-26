@@ -78,6 +78,3 @@ BOARD_SEPOLICY_UNION += \
 	ueventd.te \
 	wpa_supplicant.te
 
-ifdef MK_RELEASE
-WITH_DEXPREOPT := true
-endif
